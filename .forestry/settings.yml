@@ -8,6 +8,9 @@ sections:
 - type: directory
   path: src/pages/index.js
   label: Home 
+- type: directory
+  path: src/templates/blogTemplate.js
+  label: blog 
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
