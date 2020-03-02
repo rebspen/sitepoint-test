@@ -10,6 +10,8 @@ import  FancyParagraph  from  "../components/fancy-paragraph"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    [Text]("google.com")
+    # heading 1
     <h1>Hi people</h1>
     <p>Welcome to my SitePoint Demo Site!</p>
     <FancyParagraph  paragraphText="Styled with CSS Modules." />
