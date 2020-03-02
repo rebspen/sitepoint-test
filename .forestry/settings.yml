@@ -4,13 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-sections:
 - type: directory
   path: src/pages/index.js
-  label: Home 
+  label: Home
+  create: all
+  match: "**/*"
 - type: directory
   path: src/templates/blogTemplate.js
-  label: blog 
+  label: blog
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
